@@ -16,13 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="BAy-XF-d1k">
-                                <rect key="frame" x="85" y="249" width="244" height="242"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="BAy-XF-d1k">
+                                <rect key="frame" x="138" y="267" width="138" height="139"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flixster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="Ezd-c3-yev">
-                                <rect key="frame" x="125" y="511" width="165" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flixster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="Ezd-c3-yev">
+                                <rect key="frame" x="0.0" y="421.5" width="414" height="53"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,6 +28,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ezd-c3-yev" firstAttribute="top" secondItem="BAy-XF-d1k" secondAttribute="bottom" constant="15.5" id="3eS-hx-rOF"/>
+                            <constraint firstItem="Ezd-c3-yev" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NxB-Wp-HTz"/>
+                            <constraint firstItem="Ezd-c3-yev" firstAttribute="centerX" secondItem="BAy-XF-d1k" secondAttribute="centerX" id="aYU-3c-cGF"/>
+                            <constraint firstItem="Ezd-c3-yev" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="haQ-9X-CsC"/>
+                            <constraint firstItem="Ezd-c3-yev" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qIJ-92-fEm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
